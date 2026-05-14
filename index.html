@@ -145,16 +145,15 @@
     }
     #hero:hover .hero-bg { transform: scale(1); }
 
-    /* Overlay — escuro na esquerda, abre no centro pra logo aparecer */
+    /* Overlay tropical */
     .hero-overlay {
       position: absolute;
       inset: 0;
       background: linear-gradient(
-        to right,
-        rgba(20,10,2,.88) 0%,
-        rgba(20,10,2,.72) 35%,
-        rgba(20,10,2,.25) 58%,
-        rgba(20,10,2,.10) 100%
+        160deg,
+        rgba(28,13,3,.9) 0%,
+        rgba(61,32,7,.55) 45%,
+        rgba(91,164,207,.12) 100%
       );
     }
 
@@ -169,9 +168,8 @@
     .hero-content {
       position: relative;
       z-index: 2;
-      width: 46%;
-      max-width: 520px;
-      padding: 130px 0 100px;
+      max-width: 700px;
+      padding: 130px 24px 100px;
     }
 
     .hero-badge {
@@ -202,9 +200,9 @@
 
     .hero-headline {
       font-family: var(--font-head);
-      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-size: clamp(2.6rem, 6.5vw, 4.4rem);
       font-weight: 900;
-      line-height: 1.1;
+      line-height: 1.08;
       color: var(--cream);
       margin-bottom: 22px;
     }
@@ -215,11 +213,11 @@
     }
 
     .hero-sub {
-      font-size: clamp(.9rem, 1.6vw, 1rem);
+      font-size: clamp(1rem, 2.2vw, 1.18rem);
       font-weight: 300;
       color: rgba(253,246,227,.75);
       line-height: 1.78;
-      max-width: 100%;
+      max-width: 540px;
       margin-bottom: 44px;
     }
     .hero-sub strong { color: var(--sand); font-weight: 600; }
