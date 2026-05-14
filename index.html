@@ -139,7 +139,7 @@
       background-image: url('assets/images/Banner_Ula.png'), url('assets/images/ULA.jpg');
       background-size: cover;
       background-position: center 30%;
-      filter: brightness(.38) saturate(1.2);
+      filter: brightness(.62) saturate(1.1);
       transform: scale(1.05);
       transition: transform 14s ease;
     }
@@ -170,6 +170,8 @@
       z-index: 2;
       max-width: 700px;
       padding: 130px 24px 100px;
+      margin-left: 0;
+      padding-left: 0;
     }
 
     .hero-badge {
@@ -960,7 +962,14 @@
       <div class="produto-grid">
 
         <div class="produto-img-wrap reveal">
-          <img src="assets/images/ULA.jpg" alt="ULA Amarulá Caseira — garrafa sendo servida gelada com gelo" />
+          <video
+            src="assets/images/imagem_interativa_ula.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            style="width:100%;border-radius:20px;object-fit:cover;max-height:600px;display:block;"
+          ></video>
           <div class="produto-img-badge">
             <strong>1L</strong>
             Puro Sabor
